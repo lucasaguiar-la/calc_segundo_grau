@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Outfit:wght@900&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(238, 238, 238, 0.986)
+}
+
+.header {
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFD59A;
+}
+.header .tituloHeader {
+    margin-top: 4rem;
+    width: 180px;
+}
+.header .livro{
+    width: 85px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25))
+}
+
+.conteudoExplicativo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+    background-color: #D9D9D9;
+}
+.tituloExplicativo {
+    margin-top: -35px;
+    padding: 5px;
+    width: 290px;
+    font-size: 19pt;
+    font-family: 'Outfit', sans-serif, Arial, Helvetica;
+    color: #EA7979;
+    border-radius: 50px;
+    background-color: #FFD59A;
+}
+.textoExplicativo {
+    padding: 0px 30px 30px 30px;
+    line-height: 17pt;
+}
+.textoExplicativo p {
+    padding-top: 1.5rem;
+}
+.textoExplicativo p span{
+    color: #AF0089;
+    font-weight: 800;
+}
+
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+    background-color: #D9D9D9;
+}
+.tituloCalculo {
+    margin-top: -35px;
+    padding: 15px;
+    width: 260px;
+    font-size: 19pt;
+    font-family: 'Outfit', sans-serif, Arial, Helvetica;
+    color: #EA7979;
+    border-radius: 50px;
+    background-color: #FFD59A;
+}
+.camposCalculo {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.campoAbc {
+    display: flex;
+    flex-direction: column;
+}
+.campoAbc label {
+    font-weight: 600;
+    color: #EA7979;
+}
+.campoNumero {
+    text-align: center;
+    width: 65px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #FFB7B2;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.25) inset;
+}
+#botaoCalcular {
+    margin: 2rem 0 2rem 0;
+    padding: 10px 5px;
+    width: 120px;
+    font-size: 14pt;
+    font-family: 'Outfit', sans-serif, Arial, Helvetica;
+    color: #EA7979;
+    border: none;
+    border-radius: 50px;
+    background-color: #FFD59A;
+}
+
+.conteudoResultado {
+    padding: 20px 30px 50px 30px;
+    background: #FFB7B2;
+}
+.conteudoResultado h2 {
+    font-size: 19pt;
+    margin-bottom: 1rem;
+    color: #EA7979;
+    text-transform: uppercase;
+    font-family: 'Outfit', sans-serif, Arial, Helvetica;
+}
