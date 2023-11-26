@@ -10,7 +10,7 @@
     height: 100vh;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    background-color: rgba(238, 238, 238, 0.986)
+    background-color: #eeeeeefb
 }
 
 .header {
@@ -122,6 +122,10 @@
     color: #EA7979;
     text-transform: uppercase;
     font-family: 'Outfit', sans-serif, Arial, Helvetica;
+}
+
+.responsivoPai {
+    background-color: #eeeeeefb;
 }
 
 @media screen and (min-width: 800px) {
