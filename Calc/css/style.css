@@ -78,7 +78,7 @@
 }
 .camposCalculo {
     margin-top: 2rem;
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -122,4 +122,49 @@
     color: #EA7979;
     text-transform: uppercase;
     font-family: 'Outfit', sans-serif, Arial, Helvetica;
+}
+
+@media screen and (min-width: 800px) {
+    .container {
+
+    }
+
+    .responsivoPai {
+        display: flex;
+    }
+
+    .conteudoExplicativo {
+        width: 50%;
+    }
+
+    .responsivoFilho {
+        width: 50%;
+    }
+
+    .gambiarra {
+        height: 450px;
+        background-color: #D9D9D9;
+    }
+    .conteudoResultado {
+        height: 340px;
+        margin-right: 20px;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .tituloExplicativo {
+        margin-bottom: 30px;
+    }
+    p {
+        font-size: 16pt;
+        padding-bottom: 2rem;
+        line-height: 30px;
+    }
+
+    .gambiarra {
+        height: 100vh;
+        background-color: #D9D9D9;
+    }
 }
